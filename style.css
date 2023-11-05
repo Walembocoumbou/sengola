@@ -1,0 +1,110 @@
+/*
+Theme Name: sengola
+Theme URI: http://sengola
+Author: ATV
+Author URI: https://atvcongo.org
+Description: Mon premier thème !
+Version: 1.0
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  max-width: 100vw;
+  font-family: 'calisto mt', 'bookman old style', 'bookman', 'goudy old style', garamond, 'hoefler tex't, 'bitstream charter', georgia, serif;
+  font-size: 1.09em;
+  color: #545454;
+  line-height: 1.43em;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:link, a:visited {
+  color: #4285f4;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+p {
+  line-height: 1.7em;
+}
+
+div.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+article.post {
+  border-bottom: 4px dashed #ecf0f1;
+}
+
+article.post:last-of-type {
+  border-bottom: none;
+}
+
+#loop article {
+  margin: 0 0 50px 0;
+  background: #fff;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.endnew {
+  font-family: 'franklin gothic', 'arial bold';
+  font-size: 1.15em;
+  font-weight: bold;
+  font-style: italic;
+  text-align: center;
+}
+
+#pagination {
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 0 0 100px 0;
+}
+
+.small-thumbnail {
+  float: left;
+  margin: 0px 10px 10px 0px;
+}
+
+#searchsubmit {
+  background-color: #00a0d2;
+  color: white;
+  padding: 5px 8px;
+  font-size: 15px;
+  line-height: 1.3;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#s {
+  height: 18px;
+  padding: 5px 8px;
+  font-size: 15px;
+  line-height: 1.1;
+  border-radius: 6px;
+}
+
+.post-meta {
+  font-size: 90%;
+  font-style: italic;
+  color: #888;
+}
+
+.post__link {
+  font-style: normal;
+}
